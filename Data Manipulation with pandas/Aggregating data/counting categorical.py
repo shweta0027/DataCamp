@@ -2,7 +2,7 @@
 store_counts = store_types["type"].value_counts()
 print(store_counts)
 
-store_props = store_depts["department"].value_counts(normalize=True)
+store_props = store_types["type"].value_counts(normalize=True)
 print(store_props)
 
 # Count the number of each department number and sort
